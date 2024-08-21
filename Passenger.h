@@ -16,7 +16,7 @@ class Passenger
         Passenger (std::string name, int age, char berthPreference);
 
         void setId(int id);
-        int getId(int id);
+        int getId();
 
         void allotBerth(char berth);
         void setSeatNumber (int num);
